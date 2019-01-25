@@ -16,15 +16,11 @@ class CaseCollection extends Collection
         }
     }
     
-    public function filterType( $partialText ) : Collection {
+    public function filterByHearingType( $partialText ) : Collection {
         $copy = $this->filter( function( CourtCase $case ) use ( $partialText ) {
             /* @var $case CourtCase */
             return $case->hasType($partialText);
         } );
         return $copy;
-    }
-    
-    public function countType( $typeText ){
-        return $this->filterType($typeText)->count();
     }
 }

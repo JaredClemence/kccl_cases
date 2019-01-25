@@ -14,4 +14,6 @@ use App\CourtCase;
  */
 trait TakesCases {
     abstract public function addCase( CourtCase $case );
+    abstract public function filterByHearingType( string $searchText );
+    abstract public function count();
 }

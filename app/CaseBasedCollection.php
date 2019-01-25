@@ -14,6 +14,12 @@ abstract class CaseBasedCollection extends Model
     
     private $data = [];
     
+    public function __clone() {
+        foreach( $this->data as &$value ){
+            $value = clone $value;
+        }
+    }
+    
     private function initializeKey( $key ){
         if( !isset( $this->data[ $key ] ) ){
             $className = $this->getKeyedClassType();
@@ -36,6 +42,26 @@ abstract class CaseBasedCollection extends Model
         if( $key !== null ){
             $this->initializeKey($key);
             return $this->data[$key];
+        }
+    }
+    
+
+    public function count() {
+        $count = 0;
+        foreach( $this->data as $countable ){
+            $count += $countable->count();
+        }
+        return $count;
+    }
+
+    public function filterByHearingType(string $searchText) {
+        $clone = clone $this;
+        foreach( $clone->data as $key=>$value ){
+            $newValue = $value->filterByHearingType( $searchText );
+            $clone->data[$key] = $value;
+            if( $value->count() == 0 ){
+                unset( $clone->data[$key] );
+            }
         }
     }
 
