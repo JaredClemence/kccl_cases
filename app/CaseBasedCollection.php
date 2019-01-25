@@ -44,7 +44,6 @@ abstract class CaseBasedCollection extends Model
             return $this->data[$key];
         }
     }
-    
 
     public function count() {
         $count = 0;
