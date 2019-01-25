@@ -38,6 +38,8 @@ class ScrapeCasesTest extends DuskTestCase {
                         ->on(new CriminalCalendarPage())
                         ->scrapeCases($scrapeResult);
             });
+        
+            $scrapeResult->store();
             do{
                 $date->addDay();
             }while( $date->format('w') == SATURDAY || $date->format('w') == SUNDAY );
