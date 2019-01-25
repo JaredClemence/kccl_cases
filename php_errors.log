@@ -1,0 +1,21 @@
+[25-Jan-2019 17:37:19 UTC] PHP Fatal error:  Uncaught Illuminate\Contracts\Container\BindingResolutionException: Target [Illuminate\Contracts\Debug\ExceptionHandler] is not instantiable. in /Users/jaredclemence/cases/vendor/laravel/framework/src/Illuminate/Container/Container.php:945
+Stack trace:
+#0 /Users/jaredclemence/cases/vendor/laravel/framework/src/Illuminate/Container/Container.php(785): Illuminate\Container\Container->notInstantiable('Illuminate\\Cont...')
+#1 /Users/jaredclemence/cases/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('Illuminate\\Cont...')
+#2 /Users/jaredclemence/cases/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array)
+#3 /Users/jaredclemence/cases/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#4 /Users/jaredclemence/cases/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleEx in /Users/jaredclemence/cases/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 945
+[25-Jan-2019 17:37:19 UTC] PHP Fatal error:  Uncaught Illuminate\Contracts\Container\BindingResolutionException: Target [Illuminate\Contracts\Debug\ExceptionHandler] is not instantiable. in /Users/jaredclemence/cases/vendor/laravel/framework/src/Illuminate/Container/Container.php:945
+Stack trace:
+#0 /Users/jaredclemence/cases/vendor/laravel/framework/src/Illuminate/Container/Container.php(785): Illuminate\Container\Container->notInstantiable('Illuminate\\Cont...')
+#1 /Users/jaredclemence/cases/vendor/laravel/framework/src/Illuminate/Container/Container.php(658): Illuminate\Container\Container->build('Illuminate\\Cont...')
+#2 /Users/jaredclemence/cases/vendor/laravel/framework/src/Illuminate/Container/Container.php(609): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array)
+#3 /Users/jaredclemence/cases/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(735): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#4 /Users/jaredclemence/cases/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleEx in /Users/jaredclemence/cases/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 945
+[25-Jan-2019 20:04:10 UTC] PHP Catchable fatal error:  Object of class DateTimeZone could not be converted to string in php shell code on line 1
+[25-Jan-2019 20:04:10 UTC] PHP Stack trace:
+[25-Jan-2019 20:04:10 UTC] PHP   1. {main}() php shell code:0
+[25-Jan-2019 20:05:52 UTC] PHP Warning:  Uncaught Error: Non-static method DateTime::setTimezone() cannot be called statically in php shell code:1
+Stack trace:
+#0 {main}
+  thrown in php shell code on line 1
