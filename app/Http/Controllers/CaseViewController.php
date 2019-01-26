@@ -14,8 +14,8 @@ class CaseViewController extends Controller
      */
     public function index()
     {
-        $result = ScrapeResult::loadCachedFile();
-        $result->filterByHearingType( "1538" );
+        $results = ScrapeResult::loadCachedFile();
+        $results->filterByHearingType( "1538" );
         return view('cases', compact('results'));
     }
 

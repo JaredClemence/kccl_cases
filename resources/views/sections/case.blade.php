@@ -1,0 +1,1 @@
+<tr><td>{{$case->number}}</td><td>{!! str_replace(' ', "<br/>", $case->getTimeString()) !!}</td><td>{{$case->department}}</td><td>{{$case->name}}</td><td>{{$case->hearingType}}</td></tr>

@@ -3,7 +3,7 @@
 A scraper that searches for cases in the Kern County Criminal Database and displays cases matching predefined search criteria.
 
 As part of the Criminal Procedure course, the students of KCCL have been asked to attend a 
-hearing for Motion to Exclude Evidence. The Criminal Court database does not provide 
+hearing for Motion to Suppress Evidence. The Criminal Court database does not provide 
 convenient filter for cases by type, and manual searches take copious amounts of time. Search 
 results are unreliable, because they change daily when the schedule is revised.
 

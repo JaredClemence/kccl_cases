@@ -20,11 +20,11 @@ class CourtCase extends Model
     }
     
     public function getDateString(){
-        return $this->datetime->format( "l, F jS" );
+        return $this->datetime->format( "l, F j, Y" );
     }
     
     public function getTimeString(){
-        return $this->datetime->format( "g:ia (Hi\h\r\s)" );
+        return $this->datetime->format( "g:ia (Hi)" );
     }
     
     public function getCourtName(){

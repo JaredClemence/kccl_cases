@@ -14,6 +14,10 @@ abstract class CaseBasedCollection extends Model
     
     private $data = [];
     
+    public function getDataAsArray(){
+        return $this->data;
+    }
+    
     public function __clone() {
         foreach( $this->data as &$value ){
             $value = clone $value;

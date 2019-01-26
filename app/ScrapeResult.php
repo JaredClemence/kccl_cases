@@ -21,6 +21,14 @@ class ScrapeResult extends Model
         $this->dataCollection = new CourtDateCollection();
     }
     
+    public function getCollectedData(){
+        return $this->dataCollection;
+    }
+    
+    public function getDate(){
+        return $this->date;
+    }
+    
     public function initializeEmptyResult(){
         $this->date = new Carbon("now", new \DateTimeZone("America/Los_Angeles"));
         $this->dataCollection = new CourtDateCollection();
