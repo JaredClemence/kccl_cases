@@ -4,14 +4,16 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
+/**
+ * @property string name
+ * @property string number
+ * @property Carbon datetime
+ * @property string location
+ * @property string department
+ * @property string hearingType
+ */
 class CourtCase extends Model
 {
-    public $name;
-    public $number;
-    public $datetime;
-    public $location;
-    public $department;
-    public $hearingType;
     
     public function hasType( $text ){
         return strstr( $this->hearingType, $text ) !== false;

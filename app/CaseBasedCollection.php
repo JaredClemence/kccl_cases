@@ -57,11 +57,13 @@ abstract class CaseBasedCollection extends Model
         $clone = clone $this;
         foreach( $clone->data as $key=>$value ){
             $newValue = $value->filterByHearingType( $searchText );
-            $clone->data[$key] = $value;
-            if( $value->count() == 0 ){
+            if( $newValue->count() ){
+                $clone->data[$key] = $newValue;
+            }else{
                 unset( $clone->data[$key] );
             }
         }
+        return $clone;
     }
 
 }

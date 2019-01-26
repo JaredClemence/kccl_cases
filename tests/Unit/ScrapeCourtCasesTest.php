@@ -8,6 +8,10 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class ScrapeCourtCasesTest extends TestCase
 {
+    private $skip = true;
+    public function force(){
+        $this->skip = false;
+    }
     /**
      * A basic test example.
      *
@@ -15,6 +19,9 @@ class ScrapeCourtCasesTest extends TestCase
      */
     public function testScrape()
     {
+        if( $this->skip ){
+            $this->markTestSkipped('This is not actually a test.');
+        }
         $data = [
             'search_dt'=>'01/25/2019',
             'courtorgloc'=>'all',
