@@ -40,6 +40,7 @@ class ScrapeCourtCases extends Command
     {
         $test = new ScrapeCasesTest();
         $test->prepare();
+        $test->force();
         $test->testScrape();
     }
 }
