@@ -16,6 +16,9 @@ use App\ScrapeResult;
 const SATURDAY = 6;
 const SUNDAY = 0;
 
+/**
+ * @group update
+ */
 class ScrapeCasesTest extends DuskTestCase {
 
     /**
