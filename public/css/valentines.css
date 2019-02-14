@@ -1,0 +1,35 @@
+h1 {
+    font-family: Meddon, serif;
+    line-height:140%;
+    padding-top:1.5rem;
+}
+
+h2 {
+    font-family: Cinzel, serif;
+    line-height:140%;
+    padding-top:1.5rem;
+}
+
+body {
+    background-color: #FFD3D3;
+    color: #427979;
+}
+
+.midnight1 {
+    max-width: 40%;
+    margin: 20px;
+}
+
+.teapot2 {
+    height:200px;
+    margin:20px;
+}
+
+.completed p *, .completed p, .completed li, .completed em{
+    color: #CA6D6D;
+}
+
+footer{
+    display:block;
+    min-height:100px;
+}
