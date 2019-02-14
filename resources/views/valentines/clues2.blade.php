@@ -35,7 +35,7 @@
         <div class='col-8 offset-2 completed'>
             <h2>Activity 2</h2>
             <div class='d-none d-sm-none d-md-none d-lg-block'>
-            <img src='{{asset('image/teapot.jpg')}}' class='float-right teapot2' />
+            <img src='{{asset('image/teapot_sm.jpg')}}' class='float-right teapot2' />
             </div>
             <p>
                 If you had time to watch the episodes. Then the mood has been set. I chose <em>Threat Level Midnight</em>, because it shows the stupid things a man will do to be near or to impress the woman he loves.
@@ -55,7 +55,7 @@
         <div class='col-8 offset-2'>
             <h2>Activity 2 (Hint)</h2>
             <div class='d-none d-sm-none d-md-none d-lg-block'>
-            <img src='{{asset('image/teapot_revealed.jpg')}}' class='float-right teapot2' />
+            <img src='{{asset('image/teapot_revealed_sm.jpg')}}' class='float-right teapot2' />
             </div>
             <p>
                 If you have not found the teapot yet, I want to provide some assistance. As promised, I am not sending you any hints, but that does not mean I cannot preplan the timed release of new information!
