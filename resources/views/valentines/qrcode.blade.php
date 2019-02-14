@@ -23,7 +23,7 @@ Song: <em>Best Friend</em> by Tim McGraw<br/>
             <img src='{{asset('image/qrcode.png')}}' class='img-fluid' />
         </div>
         <div class='col-4 offset-4'>
-            Use a QR scanner to load the next page onto your phone. You may have to take it with you.
+            Use a QR scanner to load the next page onto your iPad or phone. You may have to take it with you.
         </div>
     </div>
 </div>
