@@ -5,6 +5,9 @@
     <div class='row text-center'>
         <div class='col-8 offset-2'>
             <h2>Refresh this page as needed.</h2>
+            <p>
+            <em>The clues remain visible after each time limit passes, just in case you don't get to them in time to see them. They change color to indicate that they are no longer current.</em>
+            </p>
         </div>
     </div>
     <div class='row'>
@@ -13,9 +16,6 @@
             <section class='d-none d-sm-none d-md-none d-lg-block'>
             <img src='{{asset('image/midnight.jpg')}}' class='float-right midnight1' />
             </section>
-            <p>
-            <em>The clues remain visible after each time limit passes, just in case you don't get to them in time to see them. They change color to indicate that they are no longer current.</em>
-            </p>
             <p>
             The clues are set. The pieces are in place. Check your phone periodically for a new clue until you find your gift.
             </p>

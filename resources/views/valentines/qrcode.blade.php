@@ -4,6 +4,7 @@
 <link href="https://fonts.googleapis.com/css?family=Cinzel|Meddon" rel="stylesheet">
 <link href="{{asset('css/valentines.css')}}" rel="stylesheet">
 @endsection
+@section('title','Valentines 2019')
 @section('content')
 <div class='container'>
     <div class='row text-center'><div class='col'><h1>Valentine's Day Scavenger Hunt 2019</h1></div></div>

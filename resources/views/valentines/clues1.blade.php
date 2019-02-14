@@ -5,14 +5,14 @@
     <div class='row text-center'>
         <div class='col-8 offset-2'>
             <h2>Refresh this page as needed.</h2>
+            <p>
+            <em>The clues remain visible after each time limit passes, just in case you don't get to them in time to see them. They change color to indicate that they are no longer current.</em>
+            </p>
         </div>
     </div>
     <div class='row'>
         <div class='col-8 offset-2 completed'>
             <h2>Activity 1</h2>
-            <p>
-            <em>The clues remain visible after each time limit passes, just in case you don't get to them in time to see them. They change color to indicate that they are no longer current.</em>
-            </p>
             <img src='{{asset('image/midnight.jpg')}}' class='float-right midnight1' />
             <p>
             The clues are set. The pieces are in place. Check your phone periodically for a new clue until you find your gift.
