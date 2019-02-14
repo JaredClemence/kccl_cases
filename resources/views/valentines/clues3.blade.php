@@ -52,7 +52,7 @@ Song: <em>Waiting For You</em> by Grizfolk<br/>
                 The second episode, perhaps you figured out, is your next clue. Find the teapot.
             </p>
             <p>
-                The next clue will appear at <strong>5:30pm</strong>. You will only need this clue if you fail to find the teapot before then.
+                The next clue will appear at <strong>5:30pm</strong>. The last activity occurs at 6:00pm. Make sure you reload this page after 6:00pm, even if you solve your puzzles before then! <em>Heck!</em> you may even want to reload the page at 5:30pm and 6:00pm just to hear the songs I picked for you.
             </p>
             <div class='d-lg-none d-xl-none'>
             <img src='{{asset('image/teapot.jpg')}}' class='img-fluid' />
@@ -68,10 +68,7 @@ Song: <em>Waiting For You</em> by Grizfolk<br/>
             <p>
                 If you have not found the teapot yet, I want to provide some assistance. As promised, I am not sending you any hints, but that does not mean I cannot preplan the timed release of new information!
             </p>
-            <p>
-                This is the <strong>last clue</strong>. To continue, you must find the teapot.
-            </p>
-            <p>(To be fair, another activity will appear at <strong>6:00pm</strong>)</p>
+                This is the <strong>last clue</strong>. To continue, you must find the teapot. But, to be fair, another activity will appear at <strong>6:00pm</strong>.</p>
             <div class='d-lg-none d-xl-none'>
             <img src='{{asset('image/teapot_revealed.jpg')}}' class='img-fluid' />
             </div>

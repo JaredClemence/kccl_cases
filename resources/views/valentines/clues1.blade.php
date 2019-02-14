@@ -3,9 +3,9 @@
 <div class='container'>
     <div class='row text-center'><div class='col'>
         
-Song: <em>Be The One</em> by Dua Lipa<br/>
+Song: <em>Magnolia</em> by Eric Clapton<br/>
 <audio controls autoplay preload='auto'>
-    <source src='{{asset('music/be_the_one.mp3')}}' type='audio/mpeg' autoplay="autoplay"></source>
+    <source src='{{asset('music/magnolia.mp3')}}' type='audio/mpeg' autoplay="autoplay"></source>
 </audio>
         </div></div>
     <div class='row text-center'><div class='col'><h1>Valentine's Day Scavenger Hunt 2019</h1></div></div>
@@ -44,7 +44,7 @@ Song: <em>Be The One</em> by Dua Lipa<br/>
                 The second episode, perhaps you figured out, is your next clue. Find the teapot.
             </p>
             <p>
-                The next clue will appear at <strong>5:30pm</strong>. You will only need this clue if you fail to find the teapot before then.
+                The next clue will appear at <strong>5:30pm</strong>. The last activity occurs at 6:00pm. Make sure you reload this page after 6:00pm, even if you solve your puzzles before then! <em>Heck!</em> you may even want to reload the page at 5:30pm and 6:00pm just to hear the songs I picked for you.
             </p>
             <img src='{{asset('image/teapot.jpg')}}' class='img-fluid' />
         </div>

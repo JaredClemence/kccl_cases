@@ -4,9 +4,9 @@
     <div class='row text-center'><div class='col'><h1>Valentine's Day Scavenger Hunt 2019</h1></div></div>
     <div class='row text-center'><div class='col'>
         
-Song: <em>Magnolia</em> by Eric Clapton<br/>
+Song: <em>Best Friend</em> by Tim McGraw<br/>
 <audio controls autoplay preload='auto'>
-    <source src='{{asset('music/magnolia.mp3')}}' type='audio/mpeg' autoplay="autoplay"></source>
+    <source src='{{asset('music/best_friend.mp3')}}' type='audio/mpeg' autoplay="autoplay"></source>
 </audio>
         </div></div>
     <div class='row text-center'>

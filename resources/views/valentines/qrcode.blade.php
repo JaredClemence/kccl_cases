@@ -12,9 +12,9 @@
             <div class='row text-center'><div class='col'>
 Play this song before you load the next page.
         
-Song: <em>Best Friend</em> by Tim McGraw<br/>
+Song: <em>Homesick</em> by Dua Lipa<br/>
 <audio controls autoplay preload='auto'>
-    <source src='{{asset('music/best_friend.mp3')}}' type='audio/mpeg' autoplay="autoplay"></source>
+    <source src='{{asset('music/homesick.mp3')}}' type='audio/mpeg' autoplay="autoplay"></source>
 </audio>
         </div></div>
     <div class='row text-center'>
