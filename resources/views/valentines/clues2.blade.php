@@ -1,6 +1,13 @@
 @extends('valentines.qrcode')
 @section('content')
 <div class='container'>
+            <div class='row text-center'><div class='col'>
+        
+Song: <em>Breathing In</em> by Eleanor McEvoy<br/>
+<audio controls autoplay preload='auto'>
+    <source src='{{asset('music/breathe_in.mp3')}}' type='audio/mpeg' autoplay="autoplay"></source>
+</audio>
+        </div></div>
     <div class='row text-center'><div class='col'><h1>Valentine's Day Scavenger Hunt 2019</h1></div></div>
     <div class='row text-center'>
         <div class='col-8 offset-2'>
@@ -8,6 +15,7 @@
             <p>
             <em>The clues remain visible after each time limit passes, just in case you don't get to them in time to see them. They change color to indicate that they are no longer current.</em>
             </p>
+            <p>Each time-point has a different song selection. You can start songs at the top of the page.</p>
         </div>
     </div>
     <div class='row'>

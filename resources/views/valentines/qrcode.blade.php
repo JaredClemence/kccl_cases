@@ -8,6 +8,15 @@
 @section('content')
 <div class='container'>
     <div class='row text-center'><div class='col'><h1>Valentine's Day Scavenger Hunt 2019</h1></div></div>
+    
+            <div class='row text-center'><div class='col'>
+Play this song before you load the next page.
+        
+Song: <em>Best Friend</em> by Tim McGraw<br/>
+<audio controls autoplay preload='auto'>
+    <source src='{{asset('music/best_friend.mp3')}}' type='audio/mpeg' autoplay="autoplay"></source>
+</audio>
+        </div></div>
     <div class='row text-center'>
         <div class='col-12'>
             <br/>

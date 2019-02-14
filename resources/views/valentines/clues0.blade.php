@@ -2,9 +2,17 @@
 @section('content')
 <div class='container'>
     <div class='row text-center'><div class='col'><h1>Valentine's Day Scavenger Hunt 2019</h1></div></div>
+    <div class='row text-center'><div class='col'>
+        
+Song: <em>Magnolia</em> by Eric Clapton<br/>
+<audio controls autoplay preload='auto'>
+    <source src='{{asset('music/magnolia.mp3')}}' type='audio/mpeg' autoplay="autoplay"></source>
+</audio>
+        </div></div>
     <div class='row text-center'>
         <div class='col-8 offset-2'>
-            <h2>Refresh this page as needed.</h2>
+            <h2>Refresh this page as needed to find additional clues.</h2>
+            <p>Each time-point has a different song selection. You can start songs at the top of the page.</p>
         </div>
     </div>
     <div class='row'>
